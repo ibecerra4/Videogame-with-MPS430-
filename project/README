@@ -1,0 +1,13 @@
+Access "project" directory and run "make", then type "make load" to run the
+program.
+
+MSP430 will initiate a starting screen explaining that:
+SWITCH 1 moves the paddle to the left
+SWITCH 2 releases the ball
+SWITCH 4 moves the paddle to the right
+
+The ball will bounce around and the player's mission is to destroy the monster without
+dropping the ball beneath the boundaries of the paddle.The player can win if
+they hit each of the monster's limbs with the ball by moving the paddle. If the player wins, a
+winning screen displays "GOT 'EM". If the player loses, the screen will display
+"YOU LOST". 
